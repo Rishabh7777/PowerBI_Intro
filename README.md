@@ -43,17 +43,19 @@ The report features a custom-built **Navigation Hub** to ensure a seamless User 
 ## 🔍 Page-by-Page Layout & Analysis
 
 ### 🏠 1. Home / Navigation Hub
-![Home Page](images/Home.png)
+![Home Page](images/home.png)
 
 **Purpose:** To provide a clean, uncluttered entry point for end user.
+
 **Key Feature:** Custom-formatted Tile Buttons that use Page Navigation actions to guide the user to specific categories of insights (Maps, Trends, Tables, etc.).
 
 ---
 
 ### 📊 2. Yearly Salary & Job Role Analysis
-![Salary Analysis Page](images/Column & Bar Charts.png)
+![Salary Analysis Page](images/column_and_bar.png)
 
 **Purpose:** To identify which job titles are the most lucrative and how degree requirements impact those roles.
+
 **Visuals:**
 1. Bar Chart: Displays Median Yearly Salary by Job Title. Using "Median" instead of "Average" is a critical analytical choice to avoid outliers.
 2. Stacked Column Chart: Shows Job Count per Job Role segmented by whether a degree is mentioned.
@@ -62,10 +64,11 @@ The report features a custom-built **Navigation Hub** to ensure a seamless User 
 ---
 
 ### 📈 3. Trends & Time-Series
-![Trends Page](images/Line & Area Charts.png)
+![Trends Page](images/line_and_area.png)
 
 
 **Purpose:** To visualize how the market fluctuates over time.
+
 **Visuals:**
 1. Line Chart with Trendline: Shows the total Job Count Trend with a dotted forecast/trendline to visualize market direction.
 2. Stacked Area Chart: Displays the "Trend of Data Jobs" to show how the volume of different roles (Data Analyst, Scientist, Engineer) changes relative to one another.
@@ -74,9 +77,10 @@ The report features a custom-built **Navigation Hub** to ensure a seamless User 
 ---
 
 ### 🌍 4. Geospatial Job Mapping
-![Maps Page](images/Maps.png)
+![Maps Page](images/maps.png)
 
-**Purpose:** To answer "Where is the work?"
+**Purpose:** To answer "Where is the work?".
+
 **Visuals:**
 1. Bubble Map: Uses clustering to show job density. The size of the bubble represents the volume of jobs, while the pie-chart bubbles show the ratio of degree requirements within that specific city or region.
 2. Filled Map: Highlights the specific countries active in the dataset, providing a high-level global footprint.
@@ -84,9 +88,10 @@ The report features a custom-built **Navigation Hub** to ensure a seamless User 
 ---
 
 ### 🔬 5. Job Type & Compensation Deep-Dive
-![Deep Dive Page](images/Common Charts.png)
+![Deep Dive Page](images/common.png)
 
 **Purpose:** To find correlations and outliers in the data.
+
 **Visuals:**
 1. Scatter Plot: Analyzes the relationship between Hourly and Yearly pay. This is great for identifying which roles are typically "Contract" vs. "Full-time."
 2. Treemap: Visualizes the "Type of Jobs" (Full-time, Contract, Part-time) to show the overwhelming dominance of full-time employment in this sector.
@@ -95,15 +100,17 @@ The report features a custom-built **Navigation Hub** to ensure a seamless User 
 ---
 
 ### 📋 6. Matrix & Sparkline Master Table
-![Table Page](images/Tables.png)
+![Table Page](images/tables.png)
 
 **Purpose:** To allow users to see the specific companies and job titles behind the high-level charts.
+
 **Key Feature:** A Matrix with Sparklines. This is a "Pro" feature in Power BI. It shows the current metrics (Salary, Count) while simultaneously showing the 12-month trend in a tiny, non-distracting line chart within the row.
 
 ---
 
 ### ⚙️ 7. Dynamic Slicer Engine
-![Slicer Page](images/Slicers.png)
+![Slicer Page](images/slicers.png)
 
 **Purpose:** To give the user "Surgical" control over the report.
+
 **Key Feature:** Includes the "Clear All Slicers" button and advanced slicers like a "Numeric Range" for Salary and a "Date Slider".
